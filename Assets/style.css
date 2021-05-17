@@ -2,5 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #5c8987;
+}
+
+/*HEADER*/
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  background-image: url("./images/downtownep.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 40% 96%;
+  z-index: 9999;
+}
+
+header h1 {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 42px;
+  color: wheat;
+  margin: 0;
+  text-shadow: 0px 0px 15px #b98b7e;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 15px 20px;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  color: wheat;
+  text-shadow: 0 0 15px #b98b7e;
+}
+header nav ul li a:hover {
+  background: #875c89;
+  color: wheat;
+  border-radius: 15px;
+}
+
+/*HERO SECTION*/
+.hero {
+  background-image: url("../Assets/images/downtownep.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: 50%;
 }
