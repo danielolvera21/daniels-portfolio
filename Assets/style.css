@@ -58,6 +58,7 @@ section h2 {
 /*HERO SECTION*/
 .hero {
   background-image: url("../Assets/images/downtownep.jpg");
+  opacity: 0.9;
   height: 500px;
   background-size: cover;
   background-position: 50%;
@@ -73,7 +74,6 @@ section h2 {
 
 .hero h3 {
   color: wheat;
-  opacity: 1;
   font-style: italic;
   text-shadow: 5px 5px 15px black;
 }
@@ -102,14 +102,35 @@ section h2 {
   background-color: #444747;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.work :nth-child(1) {
+  margin-right: auto;
+  padding-left: 60px;
+}
+
+.work :nth-child(2) {
+  width: 600px;
+}
+.work :nth-child(2) img {
+  width: 90%;
+  height: 100%;
 }
 
 .img-item {
   opacity: 0.5;
 }
+
+.img-item img {
+  width: 300px;
+  max-height: 150px;
+  border-radius: 15px;
+  padding: 25px;
+}
+
 .img-item:hover {
   opacity: 1;
 }
@@ -124,11 +145,7 @@ section h2 {
 }
 
 .contact ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   list-style: none;
-  justify-content: space-between;
 }
 
 .contact ul li {
