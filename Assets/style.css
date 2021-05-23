@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  border: border-box;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -109,7 +108,7 @@ section h2 {
 
 .work :nth-child(1) {
   margin-right: auto;
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
 .work :nth-child(2) {
@@ -204,4 +203,37 @@ section h2 {
   color: black;
   font-weight: bolder;
   font-size: 20px;
+}
+
+/*MEDIA QUERY FOR TABLET SIZES*/
+@media screen and (max-width: 768px) {
+  header nav ul li a {
+    font-size: 30px;
+  }
+
+  h1 {
+    letter-spacing: normal;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+  .about-text {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .work :nth-child(1) {
+    margin-right: 50px;
+    padding-left: 0;
+  }
+}
+
+/*MEDIA QUERY FOR CELL PHONE SIZES*/
+@media screen and (max-width: 575px) {
+  header nav ul li a {
+    font-size: 20px;
+  }
+  .hit-me button {
+    width: 100%;
+  }
 }
