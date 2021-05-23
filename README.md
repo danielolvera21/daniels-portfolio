@@ -1,40 +1,28 @@
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+# My Portfolio
 
-Grading Requirements
-This challenge is graded based on the following criteria:
+## Description
 
-Technical Acceptance Criteria: 40%
-Satisfies all of the preceding acceptance criteria.
-Deployment: 32%
-Application deployed at live URL.
+A personal portfolio with links to past and current projects, as well as contact information
+for current and prospective business opportunities.
 
-Application loads with no errors.
+## Links
 
-Application GitHub URL submitted.
+*Project Links for Run Buddy and Horiseon link to working websites.
+*RHCP Fan site is link to old prework that has since been deleted. README is available.
+\*Password Generator is a future project. Link will be updated once available.
 
-GitHub repository contains application code.
+## Screenshots
 
-Application Quality: 15%
-Application resembles the mock-up functionality provided in the Challenge instructions.
-Repository Quality: 13%
-Repository has a unique name.
+### Hero/Nav Bar
 
-Repository follows best practices for file structure and naming conventions.
+![screenshot1](https://user-images.githubusercontent.com/83250389/119244565-2f847900-bb2f-11eb-8df1-cc34834eaea9.png)
 
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+### Contact Info/Hit Me Up
 
-Repository contains multiple descriptive commit messages.
+![screenshot2](https://user-images.githubusercontent.com/83250389/119244585-50e56500-bb2f-11eb-836c-b55284a3a20d.png)
 
-Repository contains quality readme with description, screenshot, link to deployed application.
+### Format when Media Query is 768px
+
+![screenshot3](https://user-images.githubusercontent.com/83250389/119244648-e7b22180-bb2f-11eb-87da-bffcb150d0cf.png)
+
+### Format when Media Query is 575 px
