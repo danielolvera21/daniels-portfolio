@@ -26,3 +26,7 @@ for current and prospective business opportunities.
 ![screenshot3](https://user-images.githubusercontent.com/83250389/119244648-e7b22180-bb2f-11eb-87da-bffcb150d0cf.png)
 
 ### Format when Media Query is 575 px
+
+## Link to Webpage
+
+(https://danielolvera21.github.io/daniels-portfolio/)
