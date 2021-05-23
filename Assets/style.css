@@ -125,7 +125,6 @@ section h2 {
 
 .img-item img {
   width: 300px;
-  max-height: 150px;
   border-radius: 15px;
   padding: 25px;
 }
@@ -233,6 +232,11 @@ section h2 {
   header nav ul li a {
     font-size: 20px;
   }
+
+  .work {
+    flex-wrap: nowrap;
+  }
+
   .hit-me button {
     width: 100%;
   }

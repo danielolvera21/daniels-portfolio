@@ -7,9 +7,9 @@ for current and prospective business opportunities.
 
 ## Links
 
-*Project Links for Run Buddy and Horiseon link to working websites.
-*RHCP Fan site is link to old prework that has since been deleted. README is available.
-\*Password Generator is a future project. Link will be updated once available.
+- Project Links for Run Buddy and Horiseon link to working websites.
+- RHCP Fan site is link to old prework that has since been deleted. README is available.
+- Password Generator is a future project. Link will be updated once available.
 
 ## Screenshots
 
@@ -26,6 +26,8 @@ for current and prospective business opportunities.
 ![screenshot3](https://user-images.githubusercontent.com/83250389/119244648-e7b22180-bb2f-11eb-87da-bffcb150d0cf.png)
 
 ### Format when Media Query is 575 px
+
+![screenshot4](https://user-images.githubusercontent.com/83250389/119268092-985f0600-bbae-11eb-8fdf-3306ea137e7c.png)
 
 ## Link to Webpage
 
